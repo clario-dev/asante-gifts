@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Heart, Search, ShoppingBag, User, Menu, X, Gift } from "lucide-react";
+import { Heart, Search, ShoppingBag, User, Menu, X } from "lucide-react";
 import { useCart } from "@/stores/cart";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/logo.png";
 
 const sections = [
   { key: "ideas", href: "#categories" },
@@ -46,13 +47,8 @@ export function Navbar() {
         )}
       >
         <div className="flex items-center justify-between h-16">
-          <a href="#top" className="flex items-center gap-2 group">
-            <span className="grid place-items-center w-9 h-9 rounded-xl bg-gradient-earth text-primary-foreground shadow-warm">
-              <Gift className="w-5 h-5" strokeWidth={2.2} />
-            </span>
-            <span className="font-display text-2xl tracking-tight">
-              Best<span className="text-gradient-warm">GiftHunt</span>
-            </span>
+          <a href="#top" className="flex items-center gap-2 group" aria-label="BestGiftHunt">
+            <img src={logo} alt="BestGiftHunt" width={180} height={48} className="h-10 w-auto" />
           </a>
 
           <nav className="hidden lg:flex items-center gap-7">

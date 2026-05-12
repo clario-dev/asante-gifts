@@ -9,6 +9,9 @@ import necklace from "@/assets/product-necklace.jpg";
 import perfume from "@/assets/product-perfume.jpg";
 import blanket from "@/assets/product-blanket.jpg";
 import sculpture from "@/assets/product-sculpture.jpg";
+import camelCurves from "@/assets/product-camel-curves.jpg";
+import camelRelief from "@/assets/product-camel-relief.jpg";
+import camelDuo from "@/assets/product-camel-duo.jpg";
 
 type Cat = "intimate" | "her" | "him" | "all";
 type Tier = "under" | "mid" | "over";
@@ -27,6 +30,9 @@ interface Product {
 const PRODUCTS: Product[] = [
   { id: "necklace", nameKey: "necklace", image: necklace, priceXOF: 25000, rating: 4.9, reviews: 128, badge: "best", cat: ["her"] },
   { id: "perfume", nameKey: "perfume", image: perfume, priceXOF: 38000, rating: 4.8, reviews: 86, badge: "new", cat: ["her", "intimate"] },
+  { id: "camel_curves", nameKey: "camel_curves", image: camelCurves, priceXOF: 10000, rating: 4.9, reviews: 214, badge: "best", cat: ["her", "intimate"] },
+  { id: "camel_relief", nameKey: "camel_relief", image: camelRelief, priceXOF: 10000, rating: 4.8, reviews: 156, cat: ["her", "him"] },
+  { id: "camel_duo", nameKey: "camel_duo", image: camelDuo, priceXOF: 18500, rating: 5.0, reviews: 98, badge: "limited", cat: ["intimate", "her", "him"] },
   { id: "blanket", nameKey: "blanket", image: blanket, priceXOF: 65000, rating: 5.0, reviews: 42, badge: "limited", cat: ["intimate"] },
   { id: "sculpture", nameKey: "sculpture", image: sculpture, priceXOF: 89000, rating: 4.9, reviews: 31, badge: "limited", cat: ["him", "intimate"] },
   { id: "necklace2", nameKey: "necklace", image: necklace, priceXOF: 18000, rating: 4.7, reviews: 64, cat: ["her"] },
