@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { Gift, Instagram, Facebook, MessageCircle, ChevronDown } from "lucide-react";
+import { Instagram, Facebook, MessageCircle, ChevronDown } from "lucide-react";
+import logo from "@/assets/logo.png";
 import { useState } from "react";
 import { useCurrency, type Currency } from "@/stores/currency";
 import { cn } from "@/lib/utils";
@@ -20,13 +21,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
           <div className="col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="grid place-items-center w-9 h-9 rounded-xl bg-gradient-earth shadow-warm">
-                <Gift className="w-5 h-5" />
-              </span>
-              <span className="font-display text-2xl">
-                Best<span className="text-gradient-warm">GiftHunt</span>
-              </span>
+            <div className="mb-4 inline-block rounded-2xl bg-background/95 px-4 py-2.5">
+              <img src={logo} alt="BestGiftHunt" width={200} height={56} className="h-12 w-auto" />
             </div>
             <p className="text-sm text-background/70 max-w-sm leading-relaxed">
               {t("footer.tagline")}
