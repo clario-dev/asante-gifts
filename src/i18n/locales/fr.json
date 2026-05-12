@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "ideas": "Idées Cadeaux",
+    "occasion": "Par Occasion",
+    "him": "Pour Lui",
+    "her": "Pour Elle",
+    "intimate": "Intime",
+    "artisans": "Nos Artisans",
+    "search": "Rechercher",
+    "favorites": "Favoris",
+    "cart": "Panier",
+    "account": "Compte"
+  },
+  "hero": {
+    "badge": "Artisans africains vérifiés • Livraison express • Paiement sécurisé",
+    "title_1": "Offrez l'Amour,",
+    "title_2": "Partagez l'Héritage Africain",
+    "subtitle": "Des cadeaux uniques 100% africains pour célébrer votre amour, chaque jour",
+    "cta_primary": "Découvrir les Idées Cadeaux",
+    "cta_secondary": "Explorer par Occasion"
+  },
+  "categories": {
+    "title": "Trouvez le Cadeau Parfait",
+    "subtitle": "Une sélection raffinée pour chaque moment d'amour",
+    "intimate": "Cadeaux Intimes",
+    "her": "Pour Elle",
+    "him": "Pour Lui",
+    "anniversary": "Anniversaire de Couple",
+    "valentine": "Saint-Valentin",
+    "just_because": "Juste Parce Que"
+  },
+  "featured": {
+    "title": "Nos Coups de Cœur des Artisans",
+    "subtitle": "Pièces uniques fabriquées avec passion",
+    "filters": {
+      "all": "Tous",
+      "intimate": "Intimes",
+      "her": "Pour Elle",
+      "him": "Pour Lui",
+      "under": "Moins de 25k",
+      "mid": "25k - 50k",
+      "over": "Plus de 50k"
+    },
+    "add_to_cart": "Ajouter au Panier",
+    "added": "Ajouté au panier",
+    "badges": {
+      "new": "Nouveau",
+      "best": "Best-Seller",
+      "limited": "Édition Limitée"
+    },
+    "products": {
+      "necklace": "Collier Amazone — Perles africaines",
+      "perfume": "Coffret Beurre de Karité & Parfum",
+      "blanket": "Plaid Couple en Bogolan tissé main",
+      "sculpture": "Sculpture Couple en Ébène"
+    }
+  },
+  "why": {
+    "title": "Pourquoi Choisir BestGiftHunt",
+    "items": {
+      "african": { "title": "100% Africain", "desc": "Chaque produit est fabriqué par des artisans locaux" },
+      "delivery": { "title": "Livraison Express", "desc": "Livraison en 24-72h selon votre ville" },
+      "payment": { "title": "Paiement Sécurisé", "desc": "Mobile Money, Carte, Virement — 100% sécurisé" },
+      "satisfaction": { "title": "Satisfaction Garantie", "desc": "Remboursement sous 14 jours si insatisfait" }
+    }
+  },
+  "testimonials": {
+    "title": "Ils se sont Offert l'Amour",
+    "items": [
+      { "quote": "Le collier que j'ai offert à ma femme l'a fait pleurer de joie. Une qualité incroyable et une histoire à raconter.", "name": "Kouamé & Aïcha", "city": "Abidjan" },
+      { "quote": "Notre anniversaire de mariage a été magique grâce à BestGiftHunt. Service impeccable, livraison en 48h.", "name": "Mariam & Ibrahim", "city": "Dakar" },
+      { "quote": "Enfin une plateforme qui célèbre vraiment notre culture. Mes proches en France ont adoré le coffret.", "name": "Fatou & David", "city": "Paris" }
+    ]
+  },
+  "newsletter": {
+    "title": "Recevez des Idées Cadeaux Exclusives",
+    "subtitle": "Inscrivez-vous pour des suggestions personnalisées",
+    "placeholder": "Votre email",
+    "cta": "S'inscrire",
+    "note": "Pas de spam, promis. Uniquement de l'amour africain.",
+    "thanks": "Merci ! Surveillez votre boîte de réception."
+  },
+  "footer": {
+    "tagline": "La marketplace premium de cadeaux 100% africains pour les couples qui célèbrent l'amour et l'héritage.",
+    "categories": "Catégories",
+    "help": "Aide",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "shipping": "Livraison",
+    "returns": "Retours",
+    "currency": "Devise",
+    "rights": "Tous droits réservés.",
+    "legal": "Mentions légales"
+  },
+  "common": {
+    "rating": "{{count}} avis",
+    "rating_one": "{{count}} avis"
+  }
+}
