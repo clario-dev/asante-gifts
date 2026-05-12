@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "ideas": "Gift Ideas",
+    "occasion": "By Occasion",
+    "him": "For Him",
+    "her": "For Her",
+    "intimate": "Intimate",
+    "artisans": "Our Artisans",
+    "search": "Search",
+    "favorites": "Favorites",
+    "cart": "Cart",
+    "account": "Account"
+  },
+  "hero": {
+    "badge": "Verified African artisans • Express delivery • Secure payment",
+    "title_1": "Gift Love,",
+    "title_2": "Share African Heritage",
+    "subtitle": "Unique 100% African gifts to celebrate your love, every day",
+    "cta_primary": "Discover Gift Ideas",
+    "cta_secondary": "Browse by Occasion"
+  },
+  "categories": {
+    "title": "Find the Perfect Gift",
+    "subtitle": "A refined selection for every moment of love",
+    "intimate": "Intimate Gifts",
+    "her": "For Her",
+    "him": "For Him",
+    "anniversary": "Couple Anniversary",
+    "valentine": "Valentine's Day",
+    "just_because": "Just Because"
+  },
+  "featured": {
+    "title": "Artisan Favorites",
+    "subtitle": "Unique pieces crafted with passion",
+    "filters": {
+      "all": "All",
+      "intimate": "Intimate",
+      "her": "For Her",
+      "him": "For Him",
+      "under": "Under 25k",
+      "mid": "25k - 50k",
+      "over": "Above 50k"
+    },
+    "add_to_cart": "Add to Cart",
+    "added": "Added to cart",
+    "badges": {
+      "new": "New",
+      "best": "Best-Seller",
+      "limited": "Limited Edition"
+    },
+    "products": {
+      "necklace": "Amazon Necklace — African Beads",
+      "perfume": "Shea Butter & Perfume Set",
+      "blanket": "Hand-woven Bogolan Couple Throw",
+      "sculpture": "Ebony Couple Sculpture"
+    }
+  },
+  "why": {
+    "title": "Why Choose BestGiftHunt",
+    "items": {
+      "african": { "title": "100% African", "desc": "Every product is handmade by local artisans" },
+      "delivery": { "title": "Express Delivery", "desc": "Delivery in 24-72h depending on your city" },
+      "payment": { "title": "Secure Payment", "desc": "Mobile Money, Card, Bank Transfer — 100% secure" },
+      "satisfaction": { "title": "Satisfaction Guaranteed", "desc": "14-day refund if unsatisfied" }
+    }
+  },
+  "testimonials": {
+    "title": "They Gifted Each Other Love",
+    "items": [
+      { "quote": "The necklace I gave my wife made her cry with joy. Incredible quality and a story to tell.", "name": "Kouamé & Aïcha", "city": "Abidjan" },
+      { "quote": "Our wedding anniversary was magical thanks to BestGiftHunt. Flawless service, 48h delivery.", "name": "Mariam & Ibrahim", "city": "Dakar" },
+      { "quote": "Finally a platform that truly celebrates our culture. My family in France loved the gift set.", "name": "Fatou & David", "city": "Paris" }
+    ]
+  },
+  "newsletter": {
+    "title": "Get Exclusive Gift Ideas",
+    "subtitle": "Subscribe for personalized suggestions",
+    "placeholder": "Your email",
+    "cta": "Subscribe",
+    "note": "No spam, promise. Only African love.",
+    "thanks": "Thanks! Check your inbox."
+  },
+  "footer": {
+    "tagline": "The premium marketplace of 100% African gifts for couples who celebrate love and heritage.",
+    "categories": "Categories",
+    "help": "Help",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "shipping": "Shipping",
+    "returns": "Returns",
+    "currency": "Currency",
+    "rights": "All rights reserved.",
+    "legal": "Legal"
+  },
+  "common": {
+    "rating": "{{count}} reviews",
+    "rating_one": "{{count}} review"
+  }
+}
