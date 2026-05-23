@@ -21,8 +21,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
           <div className="col-span-2">
-            <div className="mb-4 inline-block rounded-2xl bg-background/95 px-4 py-2.5">
-              <img src={logo} alt="BestGiftHunt" width={200} height={56} className="h-12 w-auto" />
+            <div className="mb-4 inline-block rounded-2xl bg-background/95 px-6 py-4">
+              <img src={logo} alt="BestGiftHunt" width={360} height={100} className="h-20 sm:h-24 w-auto" />
             </div>
             <p className="text-sm text-background/70 max-w-sm leading-relaxed">
               {t("footer.tagline")}
