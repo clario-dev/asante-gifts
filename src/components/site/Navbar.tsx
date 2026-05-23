@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useNavigate, useLocation } from "@tanstack/react-router";
 import { Heart, Search, ShoppingBag, User, Menu, X } from "lucide-react";
 import { useCart } from "@/stores/cart";
 import { cn } from "@/lib/utils";
 import logo from "@/assets/logo.png";
+
 
 const sections = [
   { key: "ideas", href: "#categories" },
@@ -16,6 +18,8 @@ const sections = [
 
 export function Navbar() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const count = useCart((s) => s.items.reduce((a, i) => a + i.qty, 0));
@@ -30,7 +34,10 @@ export function Navbar() {
 
   const toggleLang = (l: "fr" | "en") => {
     i18n.changeLanguage(l);
+    const rest = location.pathname.replace(/^\/(fr|en)(?=\/|$)/, "") || "/";
+    navigate({ to: `/${l}${rest === "/" ? "" : rest}` as string, replace: true });
   };
+
 
   return (
     <header

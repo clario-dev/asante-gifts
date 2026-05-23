@@ -1,30 +1,32 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { Navbar } from "@/components/site/Navbar";
-import { Hero } from "@/components/site/Hero";
-import { Categories } from "@/components/site/Categories";
-import { FeaturedProducts } from "@/components/site/FeaturedProducts";
-import { WhyUs } from "@/components/site/WhyUs";
-import { Testimonials } from "@/components/site/Testimonials";
-import { Newsletter } from "@/components/site/Newsletter";
-import { Footer } from "@/components/site/Footer";
+import { createFileRoute, redirect } from "@tanstack/react-router";
+
+function detectLang(req?: Request): "fr" | "en" {
+  // Server: try Accept-Language header
+  if (req) {
+    const al = req.headers.get("accept-language") || "";
+    if (/^\s*en\b/i.test(al)) return "en";
+    return "fr";
+  }
+  // Client: localStorage then navigator
+  if (typeof window !== "undefined") {
+    try {
+      const saved = localStorage.getItem("bgh_lang");
+      if (saved === "fr" || saved === "en") return saved;
+    } catch {}
+    const nav = (navigator.language || "fr").toLowerCase();
+    return nav.startsWith("en") ? "en" : "fr";
+  }
+  return "fr";
+}
 
 export const Route = createFileRoute("/")({
-  component: Index,
+  beforeLoad: ({ location }) => {
+    const req =
+      typeof window === "undefined"
+        ? // @ts-ignore — request is available on the server during SSR
+          (location as any)?.request
+        : undefined;
+    const lang = detectLang(req);
+    throw redirect({ to: "/$lang", params: { lang }, replace: true });
+  },
 });
-
-function Index() {
-  return (
-    <div className="min-h-screen bg-background">
-      <Navbar />
-      <main>
-        <Hero />
-        <Categories />
-        <FeaturedProducts />
-        <WhyUs />
-        <Testimonials />
-        <Newsletter />
-      </main>
-      <Footer />
-    </div>
-  );
-}
