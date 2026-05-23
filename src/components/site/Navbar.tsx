@@ -46,9 +46,9 @@ export function Navbar() {
           scrolled ? "mt-2" : "mt-4"
         )}
       >
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-24">
           <a href="#top" className="flex items-center gap-2 group" aria-label="BestGiftHunt">
-            <img src={logo} alt="BestGiftHunt" width={180} height={48} className="h-10 w-auto" />
+            <img src={logo} alt="BestGiftHunt" width={320} height={90} className="h-16 sm:h-20 w-auto" />
           </a>
 
           <nav className="hidden lg:flex items-center gap-7">
