@@ -12,10 +12,10 @@
     "account": "Account"
   },
   "hero": {
-    "badge": "Verified African artisans • Express delivery • Secure payment",
+    "badge": "Artisans from Cotonou & Dakar • Africa delivery • Mobile Money",
     "title_1": "Gift Love,",
     "title_2": "Share African Heritage",
-    "subtitle": "Unique 100% African gifts to celebrate your love, every day",
+    "subtitle": "Unique gifts handcrafted in Cotonou and Dakar, delivered across West Africa",
     "cta_primary": "Discover Gift Ideas",
     "cta_secondary": "Browse by Occasion"
   },
@@ -61,9 +61,9 @@
   "why": {
     "title": "Why Choose BestGiftHunt",
     "items": {
-      "african": { "title": "100% African", "desc": "Every product is handmade by local artisans" },
-      "delivery": { "title": "Express Delivery", "desc": "Delivery in 24-72h depending on your city" },
-      "payment": { "title": "Secure Payment", "desc": "Mobile Money, Card, Bank Transfer — 100% secure" },
+      "african": { "title": "100% African", "desc": "Handmade by our artisans in Cotonou and Dakar" },
+      "delivery": { "title": "Africa Delivery", "desc": "24-72h in Benin, Senegal, Ivory Coast, Togo, Mali, Burkina" },
+      "payment": { "title": "Mobile Money", "desc": "MTN, Moov, Wave, Orange Money — 100% secure" },
       "satisfaction": { "title": "Satisfaction Guaranteed", "desc": "14-day refund if unsatisfied" }
     }
   },
@@ -72,7 +72,7 @@
     "items": [
       { "quote": "The necklace I gave my wife made her cry with joy. Incredible quality and a story to tell.", "name": "Kouamé & Aïcha", "city": "Abidjan" },
       { "quote": "Our wedding anniversary was magical thanks to BestGiftHunt. Flawless service, 48h delivery.", "name": "Mariam & Ibrahim", "city": "Dakar" },
-      { "quote": "Finally a platform that truly celebrates our culture. My family in France loved the gift set.", "name": "Fatou & David", "city": "Paris" }
+      { "quote": "Finally a platform that truly celebrates our culture. Fast delivery all the way to Cotonou.", "name": "Fatou & David", "city": "Lomé" }
     ]
   },
   "newsletter": {
@@ -84,7 +84,7 @@
     "thanks": "Thanks! Check your inbox."
   },
   "footer": {
-    "tagline": "The premium marketplace of 100% African gifts for couples who celebrate love and heritage.",
+    "tagline": "Premium marketplace of 100% African gifts for couples. Based in Cotonou (Benin) & Dakar (Senegal).",
     "categories": "Categories",
     "help": "Help",
     "contact": "Contact",

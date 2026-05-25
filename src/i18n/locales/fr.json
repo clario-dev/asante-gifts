@@ -12,10 +12,10 @@
     "account": "Compte"
   },
   "hero": {
-    "badge": "Artisans africains vérifiés • Livraison express • Paiement sécurisé",
+    "badge": "Artisans de Cotonou & Dakar • Livraison Afrique • Paiement Mobile Money",
     "title_1": "Offrez l'Amour,",
     "title_2": "Partagez l'Héritage Africain",
-    "subtitle": "Des cadeaux uniques 100% africains pour célébrer votre amour, chaque jour",
+    "subtitle": "Cadeaux uniques fabriqués à Cotonou et Dakar, livrés partout en Afrique de l'Ouest",
     "cta_primary": "Découvrir les Idées Cadeaux",
     "cta_secondary": "Explorer par Occasion"
   },
@@ -61,9 +61,9 @@
   "why": {
     "title": "Pourquoi Choisir BestGiftHunt",
     "items": {
-      "african": { "title": "100% Africain", "desc": "Chaque produit est fabriqué par des artisans locaux" },
-      "delivery": { "title": "Livraison Express", "desc": "Livraison en 24-72h selon votre ville" },
-      "payment": { "title": "Paiement Sécurisé", "desc": "Mobile Money, Carte, Virement — 100% sécurisé" },
+      "african": { "title": "100% Africain", "desc": "Fabriqué par nos artisans à Cotonou et Dakar" },
+      "delivery": { "title": "Livraison Afrique", "desc": "24-72h au Bénin, Sénégal, Côte d'Ivoire, Togo, Mali, Burkina" },
+      "payment": { "title": "Mobile Money", "desc": "MTN, Moov, Wave, Orange Money — 100% sécurisé" },
       "satisfaction": { "title": "Satisfaction Garantie", "desc": "Remboursement sous 14 jours si insatisfait" }
     }
   },
@@ -72,7 +72,7 @@
     "items": [
       { "quote": "Le collier que j'ai offert à ma femme l'a fait pleurer de joie. Une qualité incroyable et une histoire à raconter.", "name": "Kouamé & Aïcha", "city": "Abidjan" },
       { "quote": "Notre anniversaire de mariage a été magique grâce à BestGiftHunt. Service impeccable, livraison en 48h.", "name": "Mariam & Ibrahim", "city": "Dakar" },
-      { "quote": "Enfin une plateforme qui célèbre vraiment notre culture. Mes proches en France ont adoré le coffret.", "name": "Fatou & David", "city": "Paris" }
+      { "quote": "Enfin une plateforme qui célèbre vraiment notre culture. Livraison rapide jusqu'à Cotonou.", "name": "Fatou & David", "city": "Lomé" }
     ]
   },
   "newsletter": {
@@ -84,7 +84,7 @@
     "thanks": "Merci ! Surveillez votre boîte de réception."
   },
   "footer": {
-    "tagline": "La marketplace premium de cadeaux 100% africains pour les couples qui célèbrent l'amour et l'héritage.",
+    "tagline": "Marketplace premium de cadeaux 100% africains pour les couples. Basés à Cotonou (Bénin) & Dakar (Sénégal).",
     "categories": "Catégories",
     "help": "Aide",
     "contact": "Contact",
