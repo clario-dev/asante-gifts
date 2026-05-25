@@ -1,20 +1,9 @@
 import { useTranslation } from "react-i18next";
-import { Instagram, Facebook, MessageCircle, ChevronDown } from "lucide-react";
+import { Instagram, Facebook, MessageCircle, MapPin } from "lucide-react";
 import logo from "@/assets/logo.png";
-import { useState } from "react";
-import { useCurrency, type Currency } from "@/stores/currency";
-import { cn } from "@/lib/utils";
-
-const CURRENCIES: { code: Currency; label: string }[] = [
-  { code: "XOF", label: "FCFA" },
-  { code: "EUR", label: "€ EUR" },
-  { code: "USD", label: "$ USD" },
-];
 
 export function Footer() {
   const { t } = useTranslation();
-  const { currency, setCurrency } = useCurrency();
-  const [open, setOpen] = useState(false);
 
   return (
     <footer className="bg-foreground text-background pt-20 pb-10">
@@ -27,6 +16,24 @@ export function Footer() {
             <p className="text-sm text-background/70 max-w-sm leading-relaxed">
               {t("footer.tagline")}
             </p>
+
+            <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-md">
+              <div className="flex items-start gap-2 text-sm text-background/80">
+                <MapPin className="w-4 h-4 mt-0.5 text-[oklch(0.85_0.13_70)] shrink-0" />
+                <div>
+                  <div className="font-semibold">Cotonou</div>
+                  <div className="text-xs text-background/60">Bénin</div>
+                </div>
+              </div>
+              <div className="flex items-start gap-2 text-sm text-background/80">
+                <MapPin className="w-4 h-4 mt-0.5 text-[oklch(0.85_0.13_70)] shrink-0" />
+                <div>
+                  <div className="font-semibold">Dakar</div>
+                  <div className="text-xs text-background/60">Sénégal</div>
+                </div>
+              </div>
+            </div>
+
             <div className="mt-6 flex items-center gap-2">
               {[Instagram, Facebook, MessageCircle].map((Icon, i) => (
                 <a
@@ -67,37 +74,14 @@ export function Footer() {
           </p>
 
           <div className="flex items-center gap-4">
-            <div className="relative">
-              <button
-                onClick={() => setOpen((v) => !v)}
-                className="inline-flex items-center gap-2 rounded-full bg-white/5 hover:bg-white/10 px-4 py-2 text-xs font-semibold transition-colors"
-              >
-                <span className="opacity-70">{t("footer.currency")}:</span>
-                <span>{CURRENCIES.find((c) => c.code === currency)?.label}</span>
-                <ChevronDown className="w-3.5 h-3.5" />
-              </button>
-              {open && (
-                <div className="absolute right-0 bottom-full mb-2 w-40 rounded-xl bg-card text-foreground shadow-warm border border-border overflow-hidden z-10 animate-scale-in">
-                  {CURRENCIES.map((c) => (
-                    <button
-                      key={c.code}
-                      onClick={() => { setCurrency(c.code); setOpen(false); }}
-                      className={cn(
-                        "w-full text-left px-4 py-2.5 text-xs font-medium hover:bg-muted transition-colors",
-                        currency === c.code && "bg-muted text-primary"
-                      )}
-                    >
-                      {c.label}
-                    </button>
-                  ))}
-                </div>
-              )}
+            <div className="inline-flex items-center gap-2 rounded-full bg-white/5 px-4 py-2 text-xs font-semibold">
+              <span className="opacity-70">{t("footer.currency")}:</span>
+              <span>FCFA</span>
             </div>
-
             <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wider text-background/50">
               <span className="px-2 py-1 bg-white/5 rounded">Mobile Money</span>
-              <span className="px-2 py-1 bg-white/5 rounded">Visa</span>
-              <span className="px-2 py-1 bg-white/5 rounded">Mastercard</span>
+              <span className="px-2 py-1 bg-white/5 rounded">Wave</span>
+              <span className="px-2 py-1 bg-white/5 rounded">Orange Money</span>
             </div>
           </div>
         </div>
